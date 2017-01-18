@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.com.corad.appcorad0.MainActivity"
+    android:background="?android:attr/colorPrimaryDark">
+
+
+    <LinearLayout
+        android:id="@+id/BarraBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarStyle"
+        android:background="@drawable/borde"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_below="@+id/img_profile"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <Button android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Login"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.29" />
+
+        <Button android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Register"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="0.29"
+            android:background="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/BarraBotones"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="1"
+            android:layout_marginTop="1dp"
+            android:id="@+id/et_Name"
+            android:layout_below="@+id/BarraBotones"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Name"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/et_Email"
+            android:hint="Email"
+            android:layout_below="@+id/et_Name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/et_Password"
+            android:hint="Password"
+            android:layout_below="@+id/et_Email"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/user1"
+        android:id="@+id/img_profile"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_action"
+        android:layout_below="@+id/linearLayout"
+        android:allowUndo="true" />
+
+
+</RelativeLayout>

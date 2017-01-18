@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "583890481037",
+    "firebase_url": "https://smartevent-c7850.firebaseio.com",
+    "project_id": "smartevent-c7850",
+    "storage_bucket": "smartevent-c7850.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583890481037:android:cfc8fe4c63e132b2",
+        "android_client_info": {
+          "package_name": "mx.com.smartandid.smartevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583890481037-nlrdv1lqqmrk2p0vr83m2lsj6oppiisg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv9ppwBtxPFJOBXe3ZG2-dLzXcenAQrRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583890481037:android:c7c444abf5531599",
+        "android_client_info": {
+          "package_name": "mx.com.corad.coradeventapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583890481037-nlrdv1lqqmrk2p0vr83m2lsj6oppiisg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv9ppwBtxPFJOBXe3ZG2-dLzXcenAQrRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583890481037:android:54b95766054b00ad",
+        "android_client_info": {
+          "package_name": "mx.com.corad.appcorad0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583890481037-nlrdv1lqqmrk2p0vr83m2lsj6oppiisg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv9ppwBtxPFJOBXe3ZG2-dLzXcenAQrRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
